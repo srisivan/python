@@ -1,4 +1,6 @@
 
+# Program to check magic string
+
 Secret_bank_code = "12G4K6D7N3"
 
 code = input("Enter the code, please\n")
