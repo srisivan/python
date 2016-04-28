@@ -13,9 +13,9 @@ print("Food Menu")
 print("------------------")
 
 for i in range(num_items):
-	print(i, food_menu[i])
+	print(i, "-", food_menu[i])
 
-selected_item = int(input("Select from above choice: "))
+selected_item = int(input("Select from above choice (use item code): "))
 
 if (selected_item > num_items):
 	print("Invalid choice")
