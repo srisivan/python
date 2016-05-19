@@ -1,3 +1,4 @@
+# A program to convert inputs into ASCII and binary form #
 
 name = input("Enter : ")
 for c in name:
