@@ -22,13 +22,17 @@ def area_of_a_rectangle(l,b):
 	print(area)
 	return(area)
 
+
+print("To get the area of a circle")
 radius = int(input("enter radius: "))
 area_of_a_circle(radius)
 
+print("To get the area of a traingle.") 
 length = int(input("enter length of triangle: "))
 base = int(input("enter base of triangle: "))
 area_of_a_traingle(length, base);
 
+print("To get the area of a rectangle.")
 length = int(input("enter length of rectangle: "))
 height = int(input("enter height  of rectangle: "))
 area_of_a_rectangle(length, height)
