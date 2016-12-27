@@ -21,9 +21,10 @@ b.The time taken to displace.
 
 First, to find the object's velocity.\n''')
 
+Mass = int(input("Please enter the object's mass, in kilograms.\n"))
 preference = (input("Do yo need the velocity to be in metres/seconds, or kilmetres/hours?  Enter (m/s) for metres/seconds and (km/h) for kilometres/hours.\n"))
 
-Mass = int(input("Please enter the object's mass, in kilograms.\n"))
+
 
 if (preference == "km/h") :
     Distance = int(input("Please enter the displacement of the object, in terms of kilometres.\n"))
@@ -71,7 +72,7 @@ elif  (preference == "m/s") :
 
 
 else :
-    print("invalid entry")
+    print("invalid entry, ( %s ) " % preference)
 
 
 
