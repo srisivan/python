@@ -15,3 +15,4 @@ else:
     print("%s is a composite number" % my_num)
 
 print(divisors)
+print("The number of divisors is %s" % length)
