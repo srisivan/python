@@ -28,11 +28,16 @@ print("PF = %s " % PF)
 print("FPF = %s" % FPF)
 
 one_day_salary = (total_salary / 30) 
-Second_salary = one_day_salary * 28
+
+No_of_days_absent = int(input("Enter the number of days your employee was absent : "))
+No_of_days_present = 30 - No_of_days_absent
+
+Second_salary = one_day_salary * No_of_days_present
 
 print("Salary for one day = %s" % one_day_salary)
 
-print("Salary for 28 days = %s " % Second_salary)
+print("Salary for %s days = %s " % (No_of_days_present , Second_salary))
+
 
 
 
