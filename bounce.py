@@ -14,9 +14,9 @@ class Paddle:
 
 
     def turn_left(self, evt):
-        self.x = -2
+        self.x = -4
     def turn_right(self, evt):
-        self.x = 2
+        self.x = 4
 
     def draw(self):
         self.canvas.move(self.id, self.x, 0)
